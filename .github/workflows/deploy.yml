@@ -28,7 +28,7 @@ jobs:
           path: ./posenet2scratch
       - uses: actions/checkout@v2
         with:
-          repository: yokobond/scratch-microbit-more
+          repository: ai4everyone/scratch-microbit-more
           path: ./scratch-microbit-more
       - uses: actions/checkout@v2
         with:
@@ -40,7 +40,7 @@ jobs:
           path: ./scratch2maqueen
       - uses: actions/checkout@v2
         with:
-          repository: champierre/handpose2scratch
+          repository: ai4everyone/handpose2scratch
           path: ./handpose2scratch
       - uses: actions/checkout@v2
         with:
